@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>题库 - Hello GWY</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">首页</a></li>
+        <li><a href="/question-bank.html" class="active">题库</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <button id="question-type-button">题单</button>
+    <ul id="dropdown-menu" class="dropdown-content">
+      <li>资料分析</li>
+      <li>判断推理</li>
+      <li>常识</li>
+      <li>言语理解与表达</li>
+      <li>数量关系</li>
+    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th>状态</th>
+          <th>题目</th>
+          <th>题解</th>
+          <th>通过率</th>
+          <th>难度</th>
+          <th>出现频率</th>
+        </tr>
+      </thead>
+      <tbody id="question-list">
+        <tr>
+          <td colspan="6">题库内容将在这里显示。</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <script src="/script.js" defer></script>
+</body>
+</html>
